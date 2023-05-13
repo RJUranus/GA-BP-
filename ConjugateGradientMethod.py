@@ -1,5 +1,6 @@
 """
 在BP神经网络中应用非线性共轭梯度法求解
+还存在问题尚未解决
 """
 import numpy as np
 from scipy.optimize import fmin_cg
