@@ -1,3 +1,8 @@
+"""
+用BP算法（随机梯度下降算法SGD）对神经网络进行训练
+当总误差小于设定值或者训练代数大于设定值代时停止训练
+"""
+
 import numpy as np
 from math import sin, pi
 import matplotlib.pyplot as plt
